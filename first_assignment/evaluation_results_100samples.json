@@ -1,0 +1,1894 @@
+{
+  "overall_metrics": {
+    "precision": 0.5539568345323741,
+    "recall": 0.5789473684210527,
+    "f1": 0.5661764705882353,
+    "total_tp": 77,
+    "total_fp": 62,
+    "total_fn": 56
+  },
+  "detailed_results": [
+    {
+      "sentence": "Satellieten , zoals de Astra gebruiken elke frequentie twee maal , zowel horizontaal als verticaal gepolariseerd .",
+      "true_entities": [
+        "SES_Astra"
+      ],
+      "predicted_entities": [
+        "Astra"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Van het zogenaamde Atlantisch Woud , een belangrijk centrum van biodiversiteit , dat zich ooit uitstrekte van het noorden van dit gebied tot in Rio Grande do Sul , blijft bijna niets meer over .",
+      "true_entities": [
+        "Rio_Grande_do_Sul",
+        "Atlantisch_Woud"
+      ],
+      "predicted_entities": [
+        "Atlantisch Woud",
+        "Rio Grande do Sul"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Deze uittocht vindt onder andere plaats via Amsterdam , Antwerpen en vooral Rotterdam .",
+      "true_entities": [
+        "Rotterdam",
+        "Antwerpen_(stad)",
+        "Amsterdam"
+      ],
+      "predicted_entities": [
+        "Amsterdam",
+        "Antwerpen",
+        "Rotterdam"
+      ],
+      "metrics": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666,
+        "tp": 2,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Deze twee nieuwe protectionistische wetten waren oorzaak van de Tweede Engels-Nederlandse Oorlog .",
+      "true_entities": [
+        "Tweede_Engels-Nederlandse_Oorlog"
+      ],
+      "predicted_entities": [
+        "Tweede Engels-Nederlandse Oorlog"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Hij werd in 1919 zo genoemd door Oldfield Thomas omdat de Eerste Wereldoorlog net was afgelopen .",
+      "true_entities": [
+        "Oldfield_Thomas",
+        "Eerste_Wereldoorlog"
+      ],
+      "predicted_entities": [
+        "Oldfield Thomas",
+        "Eerste Wereldoorlog"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Binnen het oude keizerrijk was Bohemen het industriële centrum geweest en van deze concentratie van technische bedrijven profiteerde het nieuwe land sterk .",
+      "true_entities": [
+        "Bohemen"
+      ],
+      "predicted_entities": [
+        "Bohemen",
+        "Keizerrijk"
+      ],
+      "metrics": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Ze was tot zijn overlijden getrouwd met de wiskundige Ron Graham .",
+      "true_entities": [
+        "Ron_Graham"
+      ],
+      "predicted_entities": [
+        "Ron Graham"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Het paar was goed bevriend met Paul Erdős .",
+      "true_entities": [
+        "Paul_Erdős"
+      ],
+      "predicted_entities": [
+        "Paul Erdős"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "De ideeën omtrent deze organisatie komen van Patch Adams .",
+      "true_entities": [
+        "Patch_Adams"
+      ],
+      "predicted_entities": [
+        "Patch Adams",
+        "organisatie"
+      ],
+      "metrics": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Het enige echte gebruik was tegen stakers in eigen land ; bijvoorbeeld in maart 1921 in Glasgow .",
+      "true_entities": [
+        "Glasgow"
+      ],
+      "predicted_entities": [
+        "Glasgow"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "In 1768 en 1769 streed hij onder Pasquale Paoli tegen Frankrijk voor de onafhankelijkheid van Corsica .",
+      "true_entities": [
+        "Pasquale_Paoli",
+        "Frankrijk"
+      ],
+      "predicted_entities": [
+        "Pasquale Paoli",
+        "Corsica"
+      ],
+      "metrics": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5,
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Deze restauratie werd geleid door C.H. Peters , die geadviseerd werd door P.J.H. Cuypers .",
+      "true_entities": [
+        "Cornelis_Peters",
+        "Pierre_Cuypers"
+      ],
+      "predicted_entities": [
+        "C.H. Peters",
+        "P.J.H. Cuypers"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 2,
+        "fn": 2
+      }
+    },
+    {
+      "sentence": "door Agrippa Menenius Lanatus ingesteld om de toen rechteloze plebs tegen de patriciërs te beschermen .",
+      "true_entities": [
+        "Agrippa_Menenius_Lanatus_(consul_in_503_v.Chr.)"
+      ],
+      "predicted_entities": [
+        "Agrippa Menenius Lanatus"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Oorspronkelijk benoemde de bevelhebber zelf zijn krijgstribunen , maar geleidelijk werd een steeds groter aantal van hen door het volk gekozen , tot ze , nog vóór de Tweede Punische Oorlog , alle 24 verkozen werden .",
+      "true_entities": [
+        "Tweede_Punische_Oorlog"
+      ],
+      "predicted_entities": [],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Omdat het gebied zo moeilijk toegankelijk is , duurde het tot 1887 voordat de eerste westerling ( de ontdekkingsreiziger Francis Younghusband ) het gebied betrad .",
+      "true_entities": [
+        "Francis_Younghusband"
+      ],
+      "predicted_entities": [
+        "Francis Younghusband"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Daarvoor had hij een hoofdrol in de televisieserie \" North and South \" , over de Amerikaanse Burgeroorlog .",
+      "true_entities": [
+        "Amerikaanse_Burgeroorlog",
+        "North_and_South_(Amerikaanse_miniserie)"
+      ],
+      "predicted_entities": [
+        "North and South",
+        "Amerikaanse Burgeroorlog"
+      ],
+      "metrics": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5,
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "sloten al deze staatjes zich door synoikismos ( synoecisme ) aaneen tot één enkele polis of stadstaat , met Athene als centrum .",
+      "true_entities": [
+        "Athene_(stad)"
+      ],
+      "predicted_entities": [
+        "Athene"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "De gelovigen moesten toen tijdelijk kerken in Oostkerke .",
+      "true_entities": [
+        "Oostkerke_(Diksmuide)"
+      ],
+      "predicted_entities": [
+        "Oostkerke"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "( AUC 703 ) en staat vooral bekend om zijn zeer felle tegenstand tegen Gaius Julius Caesar .",
+      "true_entities": [
+        "Julius_Caesar"
+      ],
+      "predicted_entities": [
+        "Gaius Julius Caesar"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Ten zuiden van het gebied ligt de Siachengletsjer .",
+      "true_entities": [
+        "Siachengletsjer"
+      ],
+      "predicted_entities": [
+        "Siachengletsjer"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "wordt hij \" praetor \" en in datzelfde jaar geeft hij een redevoering voor Marcus Aemilius Scaurus .",
+      "true_entities": [
+        "Marcus_Aemilius_Scaurus_minor"
+      ],
+      "predicted_entities": [
+        "Marcus Aemilius Scaurus"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Deze was langs vaderskant een afstammeling van Marcus Claudius Marcellus , een beroemd generaal tijdens de Tweede Punische Oorlog .",
+      "true_entities": [
+        "Tweede_Punische_Oorlog",
+        "Marcus_Claudius_Marcellus_I"
+      ],
+      "predicted_entities": [
+        "Marcus Claudius Marcellus",
+        "Tweede Punische Oorlog"
+      ],
+      "metrics": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5,
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Hij was een van de naaste mannelijke verwanten van zijn oom Octavianus , die zelf geen zonen had .",
+      "true_entities": [
+        "Imperator_Caesar_Augustus"
+      ],
+      "predicted_entities": [
+        "Octavianus"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Al op driejarige leeftijd , toen zijn oom vrede moest sluiten met Sextus Pompius , werd hij verloofd met diens dochter .",
+      "true_entities": [
+        "Sextus_Pompeius_Magnus_Pius"
+      ],
+      "predicted_entities": [
+        "Sextus Pompius"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Hij is houder van het record van het hoogste aantal doelpunten in één seizoen in de Major League Soccer ooit .",
+      "true_entities": [
+        "Major_League_Soccer"
+      ],
+      "predicted_entities": [],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Deze functie wordt opgelegd door de Internationale Burgerluchtvaartorganisatie in verband met precisielandingen .",
+      "true_entities": [
+        "Internationale_Burgerluchtvaartorganisatie"
+      ],
+      "predicted_entities": [
+        "Internationale Burgerluchtvaartorganisatie"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Na de dood van Publius Cornelius Scipio Africanus maior trad hij op 50-jarige leeftijd in het huwelijk met diens dertig jaar jongere dochter Cornelia .",
+      "true_entities": [
+        "Publius_Cornelius_Scipio_Africanus_maior",
+        "Cornelia_Africana"
+      ],
+      "predicted_entities": [
+        "Publius Cornelius Scipio Africanus maior",
+        "Cornelia"
+      ],
+      "metrics": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5,
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Hij kwam in aanraking met voetbal tijdens zijn studie aan de Duke University .",
+      "true_entities": [
+        "Duke_University"
+      ],
+      "predicted_entities": [
+        "Duke University"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Het grootste succes had de groep echter in het Verenigd Koninkrijk .",
+      "true_entities": [
+        "Verenigd_Koninkrijk"
+      ],
+      "predicted_entities": [
+        "Verenigd Koninkrijk"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "werd in 1998 gebruikt als achtergrondmuziek voor een aantal spelletjes van Spel zonder Grenzen .",
+      "true_entities": [
+        "Spel_zonder_grenzen"
+      ],
+      "predicted_entities": [
+        "Spel zonder Grenzen"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Het \" hub and spokes \"-concept is ontstaan in de Verenigde Staten , na de deregulering van het luchtverkeer in 1978 .",
+      "true_entities": [
+        "Verenigde_Staten"
+      ],
+      "predicted_entities": [
+        "Verenigde Staten"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Dit record behield hij tot 22 augustus 2007 , toen Jaime Moreno zijn record verbrak .",
+      "true_entities": [
+        "Jaime_Moreno"
+      ],
+      "predicted_entities": [
+        "Jaime Moreno"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Heden stelt men zich de vraag of \" Vlaanderen \" zich in de toekomst ook onafhankelijk zal verklaren , naar aanleiding van de federale rel tussen Vlaanderen en Wallonië .",
+      "true_entities": [
+        "Wallonië",
+        "Vlaanderen"
+      ],
+      "predicted_entities": [
+        "Vlaanderen",
+        "Wallonië"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Deze verklaring was een grote aanzet tot het huidige onafhankelijke Ierland .",
+      "true_entities": [
+        "Ierse_Republiek"
+      ],
+      "predicted_entities": [
+        "Ierland"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Op het in 2007 uitgebrachte \" Minutes to Midnight \" verliet de band grotendeels de nu metal en ging richting de alternatieve rock , met nadruk op experimenteren met andere muziekstijlen lag .",
+      "true_entities": [
+        "The_Little_Things_Give_You_Away"
+      ],
+      "predicted_entities": [],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Het in elektronische rock gedoopte \" A Thousand Suns \" kwam in september 2010 uit .",
+      "true_entities": [
+        "A_Thousand_Suns"
+      ],
+      "predicted_entities": [],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Op 22 juni 2012 kwam het vijfde studioalbum \" Living Things \" uit dat de vorige albums samenvoegde met als doel een nieuw geluid te creëren .",
+      "true_entities": [
+        "Living_Things"
+      ],
+      "predicted_entities": [],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Op 20 juli 2017 pleegde zanger Chester Bennington zelfmoord .",
+      "true_entities": [
+        "Chester_Bennington"
+      ],
+      "predicted_entities": [
+        "Chester Bennington"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "\" Lying from You \" werd alleen als radiosingle uitgebracht .",
+      "true_entities": [
+        "Lying_from_You"
+      ],
+      "predicted_entities": [],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Ze deden dit ook voor de slachtoffers van de tsunami in 2004 en stichtten daarvoor Music for Relief , waar verschillende andere rockbands zich bij aansloten .",
+      "true_entities": [
+        "Music_for_Relief",
+        "Zeebeving_Indische_Oceaan_2004"
+      ],
+      "predicted_entities": [
+        "Slachtoffers van de tsunami in 2004",
+        "Music for Relief",
+        "Rockband"
+      ],
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1": 0.4,
+        "tp": 1,
+        "fp": 2,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Als onderdeel van hun Europese tour traden zij in februari 2010 op in de Melkweg .",
+      "true_entities": [
+        "Melkweg_(Amsterdam)"
+      ],
+      "predicted_entities": [
+        "Melkweg"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "In de Verenigde Staten wordt de president niet rechtstreeks gekozen .",
+      "true_entities": [
+        "Verenigde_Staten"
+      ],
+      "predicted_entities": [
+        "Verenigde Staten",
+        "president"
+      ],
+      "metrics": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Uitzonderingen zijn de staten Maine en Nebraska .",
+      "true_entities": [
+        "Nebraska",
+        "Maine"
+      ],
+      "predicted_entities": [
+        "Maine",
+        "Nebraska"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Dat gebeurde bijvoorbeeld tijdens de presidentsverkiezingen van 2000 , waarin Al Gore meer stemmen behaalde dan George W. Bush , maar toch een minderheid in het kiescollege had en dus de verkiezingen verloor .",
+      "true_entities": [
+        "Al_Gore",
+        "George_W._Bush"
+      ],
+      "predicted_entities": [
+        "Al Gore",
+        "George W. Bush",
+        "Presidentsverkiezingen van de Verenigde Staten 2000"
+      ],
+      "metrics": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8,
+        "tp": 2,
+        "fp": 1,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Begin 2009 komt de eerste ep uit : Radiation .",
+      "true_entities": [
+        "Radiation_(UKZ)"
+      ],
+      "predicted_entities": [],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Zij was gehuwd met Sextus Appuleius .",
+      "true_entities": [
+        "Sextus_Appuleius_(echtgenoot_Octavia_maior)"
+      ],
+      "predicted_entities": [
+        "Sextus Appuleius"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Chr. , en vervolgens met Marcus Antonius .",
+      "true_entities": [
+        "Marcus_Antonius"
+      ],
+      "predicted_entities": [],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Hij zou uiteindelijk het tweede triumviraat oprichten samen met Marcus Antonius en Marcus Aemilius Lepidus .",
+      "true_entities": [
+        "Marcus_Aemilius_Lepidus_(triumvir)",
+        "Marcus_Antonius"
+      ],
+      "predicted_entities": [
+        "Marcus Antonius",
+        "Marcus Aemilius Lepidus"
+      ],
+      "metrics": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5,
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "De \" glasgrondel \" ( \" Aphia minuta \" ) ( ook wel \" doorschijnende grondel \" genoemd ) is een straalvinnige vis uit de familie van grondels ( Gobiidae ) , orde baarsachtigen ( Perciformes ) , die voorkomt in het noordoosten en oosten van de Atlantische Oceaan en in de Middellandse Zee .",
+      "true_entities": [
+        "Middellandse_Zee",
+        "Atlantische_Oceaan"
+      ],
+      "predicted_entities": [
+        "Aphia minuta",
+        "Gobiidae",
+        "Perciformes",
+        "Atlantische Oceaan",
+        "Middellandse Zee"
+      ],
+      "metrics": {
+        "precision": 0.4,
+        "recall": 1.0,
+        "f1": 0.5714285714285715,
+        "tp": 2,
+        "fp": 3,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Deze gemeente werd op 1 mei 1921 samengevoegd met de gemeenten Oerle en Zeelst .",
+      "true_entities": [
+        "Zeelst",
+        "Oerle_(Nederland)"
+      ],
+      "predicted_entities": [
+        "Oerle",
+        "Zeelst"
+      ],
+      "metrics": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5,
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "\" 06 / 05 \" is een film van Theo van Gogh uit 2004 met in de hoofdrollen Thijs Römer en Tara Elders .",
+      "true_entities": [
+        "Tara_Elders",
+        "Thijs_Römer",
+        "Moord_op_Theo_van_Gogh"
+      ],
+      "predicted_entities": [
+        "Theo van Gogh",
+        "Thijs Römer",
+        "Tara Elders"
+      ],
+      "metrics": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666,
+        "tp": 2,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Later als hij thuis is hoort hij dat Pim Fortuyn , lijsttrekker van de LPF is vermoord .",
+      "true_entities": [
+        "Pim_Fortuyn",
+        "Lijst_Pim_Fortuyn"
+      ],
+      "predicted_entities": [
+        "Pim Fortuyn",
+        "LPF"
+      ],
+      "metrics": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5,
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Een kennis helpt hem het kenteken na te trekken en het spoor leidt naar Wageningen waar een stichting zetelt die zich inzet voor het milieu .",
+      "true_entities": [
+        "Wageningen_(Nederland)"
+      ],
+      "predicted_entities": [
+        "Wageningen",
+        "Stichting"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 2,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "De originele muziek voor de film is geschreven door componist Elliot Goldenthal .",
+      "true_entities": [
+        "Elliot_Goldenthal"
+      ],
+      "predicted_entities": [
+        "Elliot Goldenthal"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Daar de koloniën onbewoonbaar zijn geworden , besluiten de overlevenden terug te keren naar de planeet Aarde , die inmiddels een legende geworden is onder de kolonisten .",
+      "true_entities": [
+        "Aarde_(planeet)"
+      ],
+      "predicted_entities": [
+        "Aarde"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "In landen waar dat al langer gebruikelijk is , zoals het Verenigd Koninkrijk , wordt vaak \" badkamer \" gezegd als eufemisme voor het als te direct gevoelde begrip \" wc \" .",
+      "true_entities": [
+        "Verenigd_Koninkrijk"
+      ],
+      "predicted_entities": [
+        "Verenigd Koninkrijk"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Doordat toen reeds het proces van samengaan met het GPV in de nieuwe partij de ChristenUnie gaande was werd zij in datzelfde jaar lid van laatstgenoemde partij .",
+      "true_entities": [
+        "ChristenUnie",
+        "Gereformeerd_Politiek_Verbond"
+      ],
+      "predicted_entities": [
+        "ChristenUnie",
+        "GPV"
+      ],
+      "metrics": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5,
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "De motie , ingediend door GroenLinks en de SP , werd gesteund door de VVD en de PVV .",
+      "true_entities": [
+        "Volkspartij_voor_Vrijheid_en_Democratie",
+        "Partij_voor_de_Vrijheid",
+        "Socialistische_Partij_(Nederland)",
+        "GroenLinks"
+      ],
+      "predicted_entities": [
+        "GroenLinks",
+        "SP",
+        "VVD",
+        "PVV"
+      ],
+      "metrics": {
+        "precision": 0.25,
+        "recall": 0.25,
+        "f1": 0.25,
+        "tp": 1,
+        "fp": 3,
+        "fn": 3
+      }
+    },
+    {
+      "sentence": "In menig opzicht was hij de filosofische opvolger van Bertrand Russell , hoewel hij meer bekendheid bereikte door het aanpassen van ideeën van anderen dan door ware originaliteit .",
+      "true_entities": [
+        "Bertrand_Russell"
+      ],
+      "predicted_entities": [
+        "Bertrand Russell"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Hij was de twee jaar oudere broer van raadspensionaris Johan de Witt .",
+      "true_entities": [
+        "Johan_de_Witt"
+      ],
+      "predicted_entities": [
+        "Johan de Witt"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Na hun afstuderen maakten zij gezamenlijk een reis door Frankrijk , Engeland en Zwitserland .",
+      "true_entities": [
+        "Zwitserland",
+        "Engeland",
+        "Frankrijk"
+      ],
+      "predicted_entities": [
+        "Frankrijk",
+        "Engeland",
+        "Zwitserland"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Twee jaar later werd hij tevens dijkgraaf van Mijnsheerenland .",
+      "true_entities": [
+        "Mijnsheerenland"
+      ],
+      "predicted_entities": [
+        "Mijnsheerenland"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Later werden bij beide broers door de schutter Hendrick Verhoeff de harten uit het lijf gesneden , die nog jarenlang door deze ter bespotting werden tentoongesteld .",
+      "true_entities": [
+        "Hendrik_Verhoeff"
+      ],
+      "predicted_entities": [],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Hij was een verdediger in de tijd van de ' gouden generatie ' van Kroatië .",
+      "true_entities": [
+        "Kroatië"
+      ],
+      "predicted_entities": [
+        "Kroatië"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Deze regeringscoalitie functioneerde slecht en werd vervangen door een christendemocratische / socialistische / communistische / liberale coalitie van Alcide De Gasperi in december 1945 .",
+      "true_entities": [
+        "Alcide_De_Gasperi"
+      ],
+      "predicted_entities": [
+        "Alcide De Gasperi",
+        "Christendemocratische Unie",
+        "Socialistische Partij",
+        "Communistische Partij",
+        "Liberale Partij"
+      ],
+      "metrics": {
+        "precision": 0.2,
+        "recall": 1.0,
+        "f1": 0.33333333333333337,
+        "tp": 1,
+        "fp": 4,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Zijn carrière bij Everton liep een beetje op de klippen .",
+      "true_entities": [
+        "Everton_FC"
+      ],
+      "predicted_entities": [],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Hij had het telkens over Jezus .",
+      "true_entities": [
+        "Jezus_(traditioneel-christelijk)"
+      ],
+      "predicted_entities": [
+        "Jezus"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Toch verbood hij de toneelaspiraties die zijn zoon had na het zien van een voorstelling van de vermaarde clown Buziau .",
+      "true_entities": [
+        "Johan_Buziau"
+      ],
+      "predicted_entities": [
+        "Buziau"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Hij volgde daartoe de officiersopleiding aan de Koninklijke Militaire Academie in Breda .",
+      "true_entities": [
+        "Breda",
+        "Koninklijke_Militaire_Academie"
+      ],
+      "predicted_entities": [
+        "Koninklijke Militaire Academie",
+        "Breda"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Hij keerde terug naar Everton uiteindelijk .",
+      "true_entities": [
+        "Everton_FC"
+      ],
+      "predicted_entities": [
+        "Everton"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "De proton-protoncyclus vindt plaats in sterren met een massa en temperatuur vergelijkbaar met die van de zon , alsook in lichtere sterren .",
+      "true_entities": [
+        "zon"
+      ],
+      "predicted_entities": [
+        "Zon"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "De schilder Friso ten Holt was een broer van hem .",
+      "true_entities": [
+        "Friso_ten_Holt"
+      ],
+      "predicted_entities": [
+        "Friso ten Holt"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Hij werkte vervolgens jarenlang ( 1975-1979 ) aan \" Canto Ostinato \" dat veel succes opleverde .",
+      "true_entities": [
+        "Canto_Ostinato"
+      ],
+      "predicted_entities": [],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Hij werd opgevolgd door zijn oud-ploeggenoot Igor Štimac , die werd aangewezen als de nieuwe bondscoach van de nationale ploeg .",
+      "true_entities": [
+        "Igor_Štimac"
+      ],
+      "predicted_entities": [
+        "Igor Štimac",
+        "bondscoach",
+        "nationale ploeg"
+      ],
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1": 0.5,
+        "tp": 1,
+        "fp": 2,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Bij de vrouwen heeft Jelena Isinbajeva het wereldrecord in handen met een hoogte van 5,06 .",
+      "true_entities": [
+        "Jelena_Isinbajeva"
+      ],
+      "predicted_entities": [
+        "Jelena Isinbajeva"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Hij is inmiddels geen wereldrecordhouder meer met 6,14 m , welke hoogte hij op 31 juli 1994 behaalde in Sestriere .",
+      "true_entities": [
+        "Sestriere"
+      ],
+      "predicted_entities": [
+        "Sestriere",
+        "Wereldrecordhouder"
+      ],
+      "metrics": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Trainers als Louis van Gaal , Roberto Martínez Montoliú en Mauricio Pochettino waren ook genomineerd voor de prijs .",
+      "true_entities": [
+        "Roberto_Martínez_Montoliú",
+        "Louis_van_Gaal",
+        "Mauricio_Pochettino"
+      ],
+      "predicted_entities": [
+        "Louis van Gaal",
+        "Roberto Martínez",
+        "Mauricio Pochettino"
+      ],
+      "metrics": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666,
+        "tp": 2,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Het geheel was bekleed met een folie-schild dat isoleert tegen de hitte van de zon .",
+      "true_entities": [
+        "zon"
+      ],
+      "predicted_entities": [],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Hij was een leerling van Schulz en Fasch .",
+      "true_entities": [
+        "Johann_Abraham_Peter_Schulz",
+        "Carl_Friedrich_(Christian)_Fasch"
+      ],
+      "predicted_entities": [
+        "Schulz",
+        "Fasch"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 2,
+        "fn": 2
+      }
+    },
+    {
+      "sentence": "Hij begon in die tijd een briefwisseling met Goethe en zette een groot aantal van zijn gedichten op muziek .",
+      "true_entities": [
+        "Johann_Wolfgang_von_Goethe"
+      ],
+      "predicted_entities": [
+        "Johann Wolfgang von Goethe"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Een van zijn leerlingen was Felix Mendelssohn .",
+      "true_entities": [
+        "Felix_Mendelssohn_Bartholdy"
+      ],
+      "predicted_entities": [
+        "Felix Mendelssohn"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Hij werd een dag later opgevolgd door David Moyes .",
+      "true_entities": [
+        "David_Moyes"
+      ],
+      "predicted_entities": [
+        "David Moyes"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Kort na het incident was er een top van de ASEAN .",
+      "true_entities": [
+        "ASEAN"
+      ],
+      "predicted_entities": [
+        "ASEAN"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "De kandidaten bestaan uit twee groepen : De vrouwen en de mannen die tijdens de serie gezamenlijk wonen in de Trump Tower op Manhattan .",
+      "true_entities": [
+        "Manhattan_(New_York)",
+        "Trump_Tower_(New_York)"
+      ],
+      "predicted_entities": [
+        "Donald Trump",
+        "Trump Tower",
+        "Manhattan"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 3,
+        "fn": 2
+      }
+    },
+    {
+      "sentence": "Het vijftiende seizoen , dat in 2017 in première ging , werd in zijn plaats gepresenteerd door Arnold Schwarzenegger .",
+      "true_entities": [
+        "Arnold_Schwarzenegger"
+      ],
+      "predicted_entities": [
+        "Vijftiende seizoen",
+        "Arnold Schwarzenegger"
+      ],
+      "metrics": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Na de val van het eerste kabinet Berlusconi was hij enige tijd lid van het parlement .",
+      "true_entities": [
+        "Silvio_Berlusconi"
+      ],
+      "predicted_entities": [
+        "Kabinet-Berlusconi",
+        "Parlement"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 2,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Het was een zusterzender van VT 4 .",
+      "true_entities": [
+        "VIER"
+      ],
+      "predicted_entities": [
+        "VT 4"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "In Schotland wordt een steen van de onderkant van een heuvel op de cairn op de top van die heuvel gelegd .",
+      "true_entities": [
+        "Schotland"
+      ],
+      "predicted_entities": [
+        "Schotland"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "In IJsland ziet men ook vaak gestapelde stenen .",
+      "true_entities": [
+        "IJsland"
+      ],
+      "predicted_entities": [
+        "IJsland"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "In Scandinavië worden steenmannetjes al eeuwenlang gebruikt voor navigatie .",
+      "true_entities": [
+        "Scandinavië"
+      ],
+      "predicted_entities": [],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "Waarschijnlijk is door de aanleg van de stuifdijk tussen Texel en Eierland in 1630 het geulenpatroon op de zeebodem veranderd .",
+      "true_entities": [
+        "Texel",
+        "Eierland"
+      ],
+      "predicted_entities": [
+        "Texel",
+        "Eierland"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "De conservatieven hebben sympathie laten blijken voor \" law & order \" , beperking van de immigratie en scepsis over de EU .",
+      "true_entities": [
+        "Europese_Economische_Gemeenschap"
+      ],
+      "predicted_entities": [],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "De opvatting dat de plaatsnaam verwijst naar de Germaanse god Wodan is onwaarschijnlijk .",
+      "true_entities": [
+        "Wodan"
+      ],
+      "predicted_entities": [
+        "Wodan",
+        "Germaanse mythologie"
+      ],
+      "metrics": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "De kerk van het dorp , de Petruskerk is een eenbeukige kerk met een zadeldaktoren uit de 16e eeuw .",
+      "true_entities": [
+        "Petruskerk_(Wanswerd)"
+      ],
+      "predicted_entities": [
+        "Petruskerk"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": "De kerk was oorspronkelijk gewijd aan Petrus .",
+      "true_entities": [
+        "Petrus"
+      ],
+      "predicted_entities": [
+        "Petrus"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Sofie Truyen moest vanwege een ziekte verplichte rust nemen , Marianne Devriese nam haar rol over .",
+      "true_entities": [
+        "Marianne_Devriese",
+        "Sofie_Truyen"
+      ],
+      "predicted_entities": [
+        "Sofie Truyen",
+        "Marianne Devriese"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "De wetenschappelijke naam van de soort is voor het eerst geldig gepubliceerd in 1801 door Bernard Germain de Lacépède .",
+      "true_entities": [
+        "Bernard_Germain_de_Lacépède"
+      ],
+      "predicted_entities": [
+        "Bernard Germain de Lacépède"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "Het verhaal speelt zich voornamelijk af in en rond de stad Mechelen , waarnaar bij momenten in de serie duidelijk verwezen wordt .",
+      "true_entities": [
+        "Mechelen_(stad)"
+      ],
+      "predicted_entities": [
+        "Mechelen"
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "sentence": ", gepresenteerd door o.a. Dieter Troubleyn en Bieke Ilegems .",
+      "true_entities": [
+        "Bieke_Ilegems",
+        "Dieter_Troubleyn"
+      ],
+      "predicted_entities": [
+        "Dieter Troubleyn",
+        "Bieke Ilegems"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "sentence": "In de eerste 9 seizoenen zong actrice Jacky Lafon het introlied .",
+      "true_entities": [
+        "Jacky_Lafon"
+      ],
+      "predicted_entities": [
+        "Jacky Lafon"
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    }
+  ],
+  "error_analysis": {
+    "false_positives": [
+      "Astra",
+      "Antwerpen",
+      "Keizerrijk",
+      "organisatie",
+      "Corsica",
+      "C.H. Peters",
+      "P.J.H. Cuypers",
+      "Agrippa Menenius Lanatus",
+      "North and South",
+      "Athene",
+      "Oostkerke",
+      "Gaius Julius Caesar",
+      "Marcus Aemilius Scaurus",
+      "Marcus Claudius Marcellus",
+      "Octavianus",
+      "Sextus Pompius",
+      "Cornelia",
+      "Ierland",
+      "Slachtoffers van de tsunami in 2004",
+      "Rockband",
+      "Melkweg",
+      "president",
+      "Presidentsverkiezingen van de Verenigde Staten 2000",
+      "Sextus Appuleius",
+      "Marcus Aemilius Lepidus",
+      "Aphia minuta",
+      "Gobiidae",
+      "Perciformes",
+      "Oerle",
+      "Theo van Gogh",
+      "LPF",
+      "Wageningen",
+      "Stichting",
+      "Aarde",
+      "GPV",
+      "SP",
+      "VVD",
+      "PVV",
+      "Christendemocratische Unie",
+      "Socialistische Partij",
+      "Communistische Partij",
+      "Liberale Partij",
+      "Jezus",
+      "Buziau",
+      "Everton",
+      "bondscoach",
+      "nationale ploeg",
+      "Wereldrecordhouder",
+      "Roberto Martínez",
+      "Schulz",
+      "Fasch",
+      "Felix Mendelssohn",
+      "Donald Trump",
+      "Trump Tower",
+      "Manhattan",
+      "Vijftiende seizoen",
+      "Kabinet-Berlusconi",
+      "Parlement",
+      "VT 4",
+      "Germaanse mythologie",
+      "Petruskerk",
+      "Mechelen"
+    ],
+    "false_negatives": [
+      "SES_Astra",
+      "Antwerpen_(stad)",
+      "Frankrijk",
+      "Cornelis_Peters",
+      "Pierre_Cuypers",
+      "Agrippa_Menenius_Lanatus_(consul_in_503_v.Chr.)",
+      "Tweede_Punische_Oorlog",
+      "North_and_South_(Amerikaanse_miniserie)",
+      "Athene_(stad)",
+      "Oostkerke_(Diksmuide)",
+      "Julius_Caesar",
+      "Marcus_Aemilius_Scaurus_minor",
+      "Marcus_Claudius_Marcellus_I",
+      "Imperator_Caesar_Augustus",
+      "Sextus_Pompeius_Magnus_Pius",
+      "Major_League_Soccer",
+      "Cornelia_Africana",
+      "Ierse_Republiek",
+      "The_Little_Things_Give_You_Away",
+      "A_Thousand_Suns",
+      "Living_Things",
+      "Lying_from_You",
+      "Zeebeving_Indische_Oceaan_2004",
+      "Melkweg_(Amsterdam)",
+      "Radiation_(UKZ)",
+      "Sextus_Appuleius_(echtgenoot_Octavia_maior)",
+      "Marcus_Antonius",
+      "Marcus_Aemilius_Lepidus_(triumvir)",
+      "Oerle_(Nederland)",
+      "Moord_op_Theo_van_Gogh",
+      "Lijst_Pim_Fortuyn",
+      "Wageningen_(Nederland)",
+      "Aarde_(planeet)",
+      "Gereformeerd_Politiek_Verbond",
+      "Volkspartij_voor_Vrijheid_en_Democratie",
+      "Partij_voor_de_Vrijheid",
+      "Socialistische_Partij_(Nederland)",
+      "Hendrik_Verhoeff",
+      "Everton_FC",
+      "Jezus_(traditioneel-christelijk)",
+      "Johan_Buziau",
+      "Everton_FC",
+      "Canto_Ostinato",
+      "Roberto_Martínez_Montoliú",
+      "zon",
+      "Johann_Abraham_Peter_Schulz",
+      "Carl_Friedrich_(Christian)_Fasch",
+      "Felix_Mendelssohn_Bartholdy",
+      "Manhattan_(New_York)",
+      "Trump_Tower_(New_York)",
+      "Silvio_Berlusconi",
+      "VIER",
+      "Scandinavië",
+      "Europese_Economische_Gemeenschap",
+      "Petruskerk_(Wanswerd)",
+      "Mechelen_(stad)"
+    ]
+  }
+}

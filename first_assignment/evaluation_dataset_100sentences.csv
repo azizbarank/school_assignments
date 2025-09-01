@@ -1,0 +1,101 @@
+Sentence_ID,Sentence,Ground_Truth_Entities,Predicted_Entities,True_Positives,False_Positives,False_Negatives,Precision,Recall,F1_Score,Perfect_Match
+1,"Satellieten , zoals de Astra gebruiken elke frequentie twee maal , zowel horizontaal als verticaal gepolariseerd .",SES_Astra,Astra,0,1,1,0.0,0.0,0.0,No
+2,"Van het zogenaamde Atlantisch Woud , een belangrijk centrum van biodiversiteit , dat zich ooit uitstrekte van het noorden van dit gebied tot in Rio Grande do Sul , blijft bijna niets meer over .",Rio_Grande_do_Sul; Atlantisch_Woud,Atlantisch Woud; Rio Grande do Sul,2,0,0,1.0,1.0,1.0,Yes
+3,"Deze uittocht vindt onder andere plaats via Amsterdam , Antwerpen en vooral Rotterdam .",Rotterdam; Antwerpen_(stad); Amsterdam,Amsterdam; Antwerpen; Rotterdam,2,1,1,0.667,0.667,0.667,No
+4,Deze twee nieuwe protectionistische wetten waren oorzaak van de Tweede Engels-Nederlandse Oorlog .,Tweede_Engels-Nederlandse_Oorlog,Tweede Engels-Nederlandse Oorlog,1,0,0,1.0,1.0,1.0,Yes
+5,Hij werd in 1919 zo genoemd door Oldfield Thomas omdat de Eerste Wereldoorlog net was afgelopen .,Oldfield_Thomas; Eerste_Wereldoorlog,Oldfield Thomas; Eerste Wereldoorlog,2,0,0,1.0,1.0,1.0,Yes
+6,Binnen het oude keizerrijk was Bohemen het industriële centrum geweest en van deze concentratie van technische bedrijven profiteerde het nieuwe land sterk .,Bohemen,Bohemen; Keizerrijk,1,1,0,0.5,1.0,0.667,No
+7,Ze was tot zijn overlijden getrouwd met de wiskundige Ron Graham .,Ron_Graham,Ron Graham,1,0,0,1.0,1.0,1.0,Yes
+8,Het paar was goed bevriend met Paul Erdős .,Paul_Erdős,Paul Erdős,1,0,0,1.0,1.0,1.0,Yes
+9,De ideeën omtrent deze organisatie komen van Patch Adams .,Patch_Adams,Patch Adams; organisatie,1,1,0,0.5,1.0,0.667,No
+10,Het enige echte gebruik was tegen stakers in eigen land ; bijvoorbeeld in maart 1921 in Glasgow .,Glasgow,Glasgow,1,0,0,1.0,1.0,1.0,Yes
+11,In 1768 en 1769 streed hij onder Pasquale Paoli tegen Frankrijk voor de onafhankelijkheid van Corsica .,Pasquale_Paoli; Frankrijk,Pasquale Paoli; Corsica,1,1,1,0.5,0.5,0.5,No
+12,"Deze restauratie werd geleid door C.H. Peters , die geadviseerd werd door P.J.H. Cuypers .",Cornelis_Peters; Pierre_Cuypers,C.H. Peters; P.J.H. Cuypers,0,2,2,0.0,0.0,0.0,No
+13,door Agrippa Menenius Lanatus ingesteld om de toen rechteloze plebs tegen de patriciërs te beschermen .,Agrippa_Menenius_Lanatus_(consul_in_503_v.Chr.),Agrippa Menenius Lanatus,0,1,1,0.0,0.0,0.0,No
+14,"Oorspronkelijk benoemde de bevelhebber zelf zijn krijgstribunen , maar geleidelijk werd een steeds groter aantal van hen door het volk gekozen , tot ze , nog vóór de Tweede Punische Oorlog , alle 24 verkozen werden .",Tweede_Punische_Oorlog,,0,0,1,0.0,0.0,0.0,No
+15,"Omdat het gebied zo moeilijk toegankelijk is , duurde het tot 1887 voordat de eerste westerling ( de ontdekkingsreiziger Francis Younghusband ) het gebied betrad .",Francis_Younghusband,Francis Younghusband,1,0,0,1.0,1.0,1.0,Yes
+16,"Daarvoor had hij een hoofdrol in de televisieserie "" North and South "" , over de Amerikaanse Burgeroorlog .",Amerikaanse_Burgeroorlog; North_and_South_(Amerikaanse_miniserie),North and South; Amerikaanse Burgeroorlog,1,1,1,0.5,0.5,0.5,No
+17,"sloten al deze staatjes zich door synoikismos ( synoecisme ) aaneen tot één enkele polis of stadstaat , met Athene als centrum .",Athene_(stad),Athene,0,1,1,0.0,0.0,0.0,No
+18,De gelovigen moesten toen tijdelijk kerken in Oostkerke .,Oostkerke_(Diksmuide),Oostkerke,0,1,1,0.0,0.0,0.0,No
+19,( AUC 703 ) en staat vooral bekend om zijn zeer felle tegenstand tegen Gaius Julius Caesar .,Julius_Caesar,Gaius Julius Caesar,0,1,1,0.0,0.0,0.0,No
+20,Ten zuiden van het gebied ligt de Siachengletsjer .,Siachengletsjer,Siachengletsjer,1,0,0,1.0,1.0,1.0,Yes
+21,"wordt hij "" praetor "" en in datzelfde jaar geeft hij een redevoering voor Marcus Aemilius Scaurus .",Marcus_Aemilius_Scaurus_minor,Marcus Aemilius Scaurus,0,1,1,0.0,0.0,0.0,No
+22,"Deze was langs vaderskant een afstammeling van Marcus Claudius Marcellus , een beroemd generaal tijdens de Tweede Punische Oorlog .",Tweede_Punische_Oorlog; Marcus_Claudius_Marcellus_I,Marcus Claudius Marcellus; Tweede Punische Oorlog,1,1,1,0.5,0.5,0.5,No
+23,"Hij was een van de naaste mannelijke verwanten van zijn oom Octavianus , die zelf geen zonen had .",Imperator_Caesar_Augustus,Octavianus,0,1,1,0.0,0.0,0.0,No
+24,"Al op driejarige leeftijd , toen zijn oom vrede moest sluiten met Sextus Pompius , werd hij verloofd met diens dochter .",Sextus_Pompeius_Magnus_Pius,Sextus Pompius,0,1,1,0.0,0.0,0.0,No
+25,Hij is houder van het record van het hoogste aantal doelpunten in één seizoen in de Major League Soccer ooit .,Major_League_Soccer,,0,0,1,0.0,0.0,0.0,No
+26,Deze functie wordt opgelegd door de Internationale Burgerluchtvaartorganisatie in verband met precisielandingen .,Internationale_Burgerluchtvaartorganisatie,Internationale Burgerluchtvaartorganisatie,1,0,0,1.0,1.0,1.0,Yes
+27,Na de dood van Publius Cornelius Scipio Africanus maior trad hij op 50-jarige leeftijd in het huwelijk met diens dertig jaar jongere dochter Cornelia .,Publius_Cornelius_Scipio_Africanus_maior; Cornelia_Africana,Publius Cornelius Scipio Africanus maior; Cornelia,1,1,1,0.5,0.5,0.5,No
+28,Hij kwam in aanraking met voetbal tijdens zijn studie aan de Duke University .,Duke_University,Duke University,1,0,0,1.0,1.0,1.0,Yes
+29,Het grootste succes had de groep echter in het Verenigd Koninkrijk .,Verenigd_Koninkrijk,Verenigd Koninkrijk,1,0,0,1.0,1.0,1.0,Yes
+30,werd in 1998 gebruikt als achtergrondmuziek voor een aantal spelletjes van Spel zonder Grenzen .,Spel_zonder_grenzen,Spel zonder Grenzen,1,0,0,1.0,1.0,1.0,Yes
+31,"Het "" hub and spokes ""-concept is ontstaan in de Verenigde Staten , na de deregulering van het luchtverkeer in 1978 .",Verenigde_Staten,Verenigde Staten,1,0,0,1.0,1.0,1.0,Yes
+32,"Dit record behield hij tot 22 augustus 2007 , toen Jaime Moreno zijn record verbrak .",Jaime_Moreno,Jaime Moreno,1,0,0,1.0,1.0,1.0,Yes
+33,"Heden stelt men zich de vraag of "" Vlaanderen "" zich in de toekomst ook onafhankelijk zal verklaren , naar aanleiding van de federale rel tussen Vlaanderen en Wallonië .",Wallonië; Vlaanderen,Vlaanderen; Wallonië,2,0,0,1.0,1.0,1.0,Yes
+34,Deze verklaring was een grote aanzet tot het huidige onafhankelijke Ierland .,Ierse_Republiek,Ierland,0,1,1,0.0,0.0,0.0,No
+35,"Op het in 2007 uitgebrachte "" Minutes to Midnight "" verliet de band grotendeels de nu metal en ging richting de alternatieve rock , met nadruk op experimenteren met andere muziekstijlen lag .",The_Little_Things_Give_You_Away,,0,0,1,0.0,0.0,0.0,No
+36,"Het in elektronische rock gedoopte "" A Thousand Suns "" kwam in september 2010 uit .",A_Thousand_Suns,,0,0,1,0.0,0.0,0.0,No
+37,"Op 22 juni 2012 kwam het vijfde studioalbum "" Living Things "" uit dat de vorige albums samenvoegde met als doel een nieuw geluid te creëren .",Living_Things,,0,0,1,0.0,0.0,0.0,No
+38,Op 20 juli 2017 pleegde zanger Chester Bennington zelfmoord .,Chester_Bennington,Chester Bennington,1,0,0,1.0,1.0,1.0,Yes
+39,""" Lying from You "" werd alleen als radiosingle uitgebracht .",Lying_from_You,,0,0,1,0.0,0.0,0.0,No
+40,"Ze deden dit ook voor de slachtoffers van de tsunami in 2004 en stichtten daarvoor Music for Relief , waar verschillende andere rockbands zich bij aansloten .",Music_for_Relief; Zeebeving_Indische_Oceaan_2004,Slachtoffers van de tsunami in 2004; Music for Relief; Rockband,1,2,1,0.333,0.5,0.4,No
+41,Als onderdeel van hun Europese tour traden zij in februari 2010 op in de Melkweg .,Melkweg_(Amsterdam),Melkweg,0,1,1,0.0,0.0,0.0,No
+42,In de Verenigde Staten wordt de president niet rechtstreeks gekozen .,Verenigde_Staten,Verenigde Staten; president,1,1,0,0.5,1.0,0.667,No
+43,Uitzonderingen zijn de staten Maine en Nebraska .,Nebraska; Maine,Maine; Nebraska,2,0,0,1.0,1.0,1.0,Yes
+44,"Dat gebeurde bijvoorbeeld tijdens de presidentsverkiezingen van 2000 , waarin Al Gore meer stemmen behaalde dan George W. Bush , maar toch een minderheid in het kiescollege had en dus de verkiezingen verloor .",Al_Gore; George_W._Bush,Al Gore; George W. Bush; Presidentsverkiezingen van de Verenigde Staten 2000,2,1,0,0.667,1.0,0.8,No
+45,Begin 2009 komt de eerste ep uit : Radiation .,Radiation_(UKZ),,0,0,1,0.0,0.0,0.0,No
+46,Zij was gehuwd met Sextus Appuleius .,Sextus_Appuleius_(echtgenoot_Octavia_maior),Sextus Appuleius,0,1,1,0.0,0.0,0.0,No
+47,"Chr. , en vervolgens met Marcus Antonius .",Marcus_Antonius,,0,0,1,0.0,0.0,0.0,No
+48,Hij zou uiteindelijk het tweede triumviraat oprichten samen met Marcus Antonius en Marcus Aemilius Lepidus .,Marcus_Aemilius_Lepidus_(triumvir); Marcus_Antonius,Marcus Antonius; Marcus Aemilius Lepidus,1,1,1,0.5,0.5,0.5,No
+49,"De "" glasgrondel "" ( "" Aphia minuta "" ) ( ook wel "" doorschijnende grondel "" genoemd ) is een straalvinnige vis uit de familie van grondels ( Gobiidae ) , orde baarsachtigen ( Perciformes ) , die voorkomt in het noordoosten en oosten van de Atlantische Oceaan en in de Middellandse Zee .",Middellandse_Zee; Atlantische_Oceaan,Aphia minuta; Gobiidae; Perciformes; Atlantische Oceaan; Middellandse Zee,2,3,0,0.4,1.0,0.571,No
+50,Deze gemeente werd op 1 mei 1921 samengevoegd met de gemeenten Oerle en Zeelst .,Zeelst; Oerle_(Nederland),Oerle; Zeelst,1,1,1,0.5,0.5,0.5,No
+51,""" 06 / 05 "" is een film van Theo van Gogh uit 2004 met in de hoofdrollen Thijs Römer en Tara Elders .",Tara_Elders; Thijs_Römer; Moord_op_Theo_van_Gogh,Theo van Gogh; Thijs Römer; Tara Elders,2,1,1,0.667,0.667,0.667,No
+52,"Later als hij thuis is hoort hij dat Pim Fortuyn , lijsttrekker van de LPF is vermoord .",Pim_Fortuyn; Lijst_Pim_Fortuyn,Pim Fortuyn; LPF,1,1,1,0.5,0.5,0.5,No
+53,Een kennis helpt hem het kenteken na te trekken en het spoor leidt naar Wageningen waar een stichting zetelt die zich inzet voor het milieu .,Wageningen_(Nederland),Wageningen; Stichting,0,2,1,0.0,0.0,0.0,No
+54,De originele muziek voor de film is geschreven door componist Elliot Goldenthal .,Elliot_Goldenthal,Elliot Goldenthal,1,0,0,1.0,1.0,1.0,Yes
+55,"Daar de koloniën onbewoonbaar zijn geworden , besluiten de overlevenden terug te keren naar de planeet Aarde , die inmiddels een legende geworden is onder de kolonisten .",Aarde_(planeet),Aarde,0,1,1,0.0,0.0,0.0,No
+56,"In landen waar dat al langer gebruikelijk is , zoals het Verenigd Koninkrijk , wordt vaak "" badkamer "" gezegd als eufemisme voor het als te direct gevoelde begrip "" wc "" .",Verenigd_Koninkrijk,Verenigd Koninkrijk,1,0,0,1.0,1.0,1.0,Yes
+57,Doordat toen reeds het proces van samengaan met het GPV in de nieuwe partij de ChristenUnie gaande was werd zij in datzelfde jaar lid van laatstgenoemde partij .,ChristenUnie; Gereformeerd_Politiek_Verbond,ChristenUnie; GPV,1,1,1,0.5,0.5,0.5,No
+58,"De motie , ingediend door GroenLinks en de SP , werd gesteund door de VVD en de PVV .",Volkspartij_voor_Vrijheid_en_Democratie; Partij_voor_de_Vrijheid; Socialistische_Partij_(Nederland); GroenLinks,GroenLinks; SP; VVD; PVV,1,3,3,0.25,0.25,0.25,No
+59,"In menig opzicht was hij de filosofische opvolger van Bertrand Russell , hoewel hij meer bekendheid bereikte door het aanpassen van ideeën van anderen dan door ware originaliteit .",Bertrand_Russell,Bertrand Russell,1,0,0,1.0,1.0,1.0,Yes
+60,Hij was de twee jaar oudere broer van raadspensionaris Johan de Witt .,Johan_de_Witt,Johan de Witt,1,0,0,1.0,1.0,1.0,Yes
+61,"Na hun afstuderen maakten zij gezamenlijk een reis door Frankrijk , Engeland en Zwitserland .",Zwitserland; Engeland; Frankrijk,Frankrijk; Engeland; Zwitserland,3,0,0,1.0,1.0,1.0,Yes
+62,Twee jaar later werd hij tevens dijkgraaf van Mijnsheerenland .,Mijnsheerenland,Mijnsheerenland,1,0,0,1.0,1.0,1.0,Yes
+63,"Later werden bij beide broers door de schutter Hendrick Verhoeff de harten uit het lijf gesneden , die nog jarenlang door deze ter bespotting werden tentoongesteld .",Hendrik_Verhoeff,,0,0,1,0.0,0.0,0.0,No
+64,Hij was een verdediger in de tijd van de ' gouden generatie ' van Kroatië .,Kroatië,Kroatië,1,0,0,1.0,1.0,1.0,Yes
+65,Deze regeringscoalitie functioneerde slecht en werd vervangen door een christendemocratische / socialistische / communistische / liberale coalitie van Alcide De Gasperi in december 1945 .,Alcide_De_Gasperi,Alcide De Gasperi; Christendemocratische Unie; Socialistische Partij; Communistische Partij; Liberale Partij,1,4,0,0.2,1.0,0.333,No
+66,Zijn carrière bij Everton liep een beetje op de klippen .,Everton_FC,,0,0,1,0.0,0.0,0.0,No
+67,Hij had het telkens over Jezus .,Jezus_(traditioneel-christelijk),Jezus,0,1,1,0.0,0.0,0.0,No
+68,Toch verbood hij de toneelaspiraties die zijn zoon had na het zien van een voorstelling van de vermaarde clown Buziau .,Johan_Buziau,Buziau,0,1,1,0.0,0.0,0.0,No
+69,Hij volgde daartoe de officiersopleiding aan de Koninklijke Militaire Academie in Breda .,Breda; Koninklijke_Militaire_Academie,Koninklijke Militaire Academie; Breda,2,0,0,1.0,1.0,1.0,Yes
+70,Hij keerde terug naar Everton uiteindelijk .,Everton_FC,Everton,0,1,1,0.0,0.0,0.0,No
+71,"De proton-protoncyclus vindt plaats in sterren met een massa en temperatuur vergelijkbaar met die van de zon , alsook in lichtere sterren .",zon,Zon,1,0,0,1.0,1.0,1.0,Yes
+72,De schilder Friso ten Holt was een broer van hem .,Friso_ten_Holt,Friso ten Holt,1,0,0,1.0,1.0,1.0,Yes
+73,"Hij werkte vervolgens jarenlang ( 1975-1979 ) aan "" Canto Ostinato "" dat veel succes opleverde .",Canto_Ostinato,,0,0,1,0.0,0.0,0.0,No
+74,"Hij werd opgevolgd door zijn oud-ploeggenoot Igor Štimac , die werd aangewezen als de nieuwe bondscoach van de nationale ploeg .",Igor_Štimac,Igor Štimac; bondscoach; nationale ploeg,1,2,0,0.333,1.0,0.5,No
+75,"Bij de vrouwen heeft Jelena Isinbajeva het wereldrecord in handen met een hoogte van 5,06 .",Jelena_Isinbajeva,Jelena Isinbajeva,1,0,0,1.0,1.0,1.0,Yes
+76,"Hij is inmiddels geen wereldrecordhouder meer met 6,14 m , welke hoogte hij op 31 juli 1994 behaalde in Sestriere .",Sestriere,Sestriere; Wereldrecordhouder,1,1,0,0.5,1.0,0.667,No
+77,"Trainers als Louis van Gaal , Roberto Martínez Montoliú en Mauricio Pochettino waren ook genomineerd voor de prijs .",Roberto_Martínez_Montoliú; Louis_van_Gaal; Mauricio_Pochettino,Louis van Gaal; Roberto Martínez; Mauricio Pochettino,2,1,1,0.667,0.667,0.667,No
+78,Het geheel was bekleed met een folie-schild dat isoleert tegen de hitte van de zon .,zon,,0,0,1,0.0,0.0,0.0,No
+79,Hij was een leerling van Schulz en Fasch .,Johann_Abraham_Peter_Schulz; Carl_Friedrich_(Christian)_Fasch,Schulz; Fasch,0,2,2,0.0,0.0,0.0,No
+80,Hij begon in die tijd een briefwisseling met Goethe en zette een groot aantal van zijn gedichten op muziek .,Johann_Wolfgang_von_Goethe,Johann Wolfgang von Goethe,1,0,0,1.0,1.0,1.0,Yes
+81,Een van zijn leerlingen was Felix Mendelssohn .,Felix_Mendelssohn_Bartholdy,Felix Mendelssohn,0,1,1,0.0,0.0,0.0,No
+82,Hij werd een dag later opgevolgd door David Moyes .,David_Moyes,David Moyes,1,0,0,1.0,1.0,1.0,Yes
+83,Kort na het incident was er een top van de ASEAN .,ASEAN,ASEAN,1,0,0,1.0,1.0,1.0,Yes
+84,De kandidaten bestaan uit twee groepen : De vrouwen en de mannen die tijdens de serie gezamenlijk wonen in de Trump Tower op Manhattan .,Manhattan_(New_York); Trump_Tower_(New_York),Donald Trump; Trump Tower; Manhattan,0,3,2,0.0,0.0,0.0,No
+85,"Het vijftiende seizoen , dat in 2017 in première ging , werd in zijn plaats gepresenteerd door Arnold Schwarzenegger .",Arnold_Schwarzenegger,Vijftiende seizoen; Arnold Schwarzenegger,1,1,0,0.5,1.0,0.667,No
+86,Na de val van het eerste kabinet Berlusconi was hij enige tijd lid van het parlement .,Silvio_Berlusconi,Kabinet-Berlusconi; Parlement,0,2,1,0.0,0.0,0.0,No
+87,Het was een zusterzender van VT 4 .,VIER,VT 4,0,1,1,0.0,0.0,0.0,No
+88,In Schotland wordt een steen van de onderkant van een heuvel op de cairn op de top van die heuvel gelegd .,Schotland,Schotland,1,0,0,1.0,1.0,1.0,Yes
+89,In IJsland ziet men ook vaak gestapelde stenen .,IJsland,IJsland,1,0,0,1.0,1.0,1.0,Yes
+90,In Scandinavië worden steenmannetjes al eeuwenlang gebruikt voor navigatie .,Scandinavië,,0,0,1,0.0,0.0,0.0,No
+91,Waarschijnlijk is door de aanleg van de stuifdijk tussen Texel en Eierland in 1630 het geulenpatroon op de zeebodem veranderd .,Texel; Eierland,Texel; Eierland,2,0,0,1.0,1.0,1.0,Yes
+92,"De conservatieven hebben sympathie laten blijken voor "" law & order "" , beperking van de immigratie en scepsis over de EU .",Europese_Economische_Gemeenschap,,0,0,1,0.0,0.0,0.0,No
+93,De opvatting dat de plaatsnaam verwijst naar de Germaanse god Wodan is onwaarschijnlijk .,Wodan,Wodan; Germaanse mythologie,1,1,0,0.5,1.0,0.667,No
+94,"De kerk van het dorp , de Petruskerk is een eenbeukige kerk met een zadeldaktoren uit de 16e eeuw .",Petruskerk_(Wanswerd),Petruskerk,0,1,1,0.0,0.0,0.0,No
+95,De kerk was oorspronkelijk gewijd aan Petrus .,Petrus,Petrus,1,0,0,1.0,1.0,1.0,Yes
+96,"Sofie Truyen moest vanwege een ziekte verplichte rust nemen , Marianne Devriese nam haar rol over .",Marianne_Devriese; Sofie_Truyen,Sofie Truyen; Marianne Devriese,2,0,0,1.0,1.0,1.0,Yes
+97,De wetenschappelijke naam van de soort is voor het eerst geldig gepubliceerd in 1801 door Bernard Germain de Lacépède .,Bernard_Germain_de_Lacépède,Bernard Germain de Lacépède,1,0,0,1.0,1.0,1.0,Yes
+98,"Het verhaal speelt zich voornamelijk af in en rond de stad Mechelen , waarnaar bij momenten in de serie duidelijk verwezen wordt .",Mechelen_(stad),Mechelen,0,1,1,0.0,0.0,0.0,No
+99,", gepresenteerd door o.a. Dieter Troubleyn en Bieke Ilegems .",Bieke_Ilegems; Dieter_Troubleyn,Dieter Troubleyn; Bieke Ilegems,2,0,0,1.0,1.0,1.0,Yes
+100,In de eerste 9 seizoenen zong actrice Jacky Lafon het introlied .,Jacky_Lafon,Jacky Lafon,1,0,0,1.0,1.0,1.0,Yes
