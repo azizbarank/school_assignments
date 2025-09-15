@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ca="http://www.semanticweb.org/california-ontology#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#Bakersfield">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#MediumCity"/>
+    <rdfs:label>Bakersfield</rdfs:label>
+    <ca:locatedIn rdf:resource="http://www.semanticweb.org/california-ontology#SanJoaquinValley"/>
+    <ca:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">383579</ca:hasPopulation>
+    <ca:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">384.2</ca:hasArea>
+    <ca:establishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1869</ca:establishedYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#MediumCity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/california-ontology#City"/>
+    <rdfs:label>Medium City</rdfs:label>
+    <rdfs:comment>City with population between 100,000 and 500,000</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#SanJose">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#MajorCity"/>
+    <rdfs:label>San Jose</rdfs:label>
+    <ca:locatedIn rdf:resource="http://www.semanticweb.org/california-ontology#BayArea"/>
+    <ca:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1013240</ca:hasPopulation>
+    <ca:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">469.7</ca:hasArea>
+    <ca:establishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1777</ca:establishedYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#SouthernCalifornia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#SouthernRegion"/>
+    <rdfs:label>Southern California</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#SanFrancisco">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#MajorCity"/>
+    <rdfs:label>San Francisco</rdfs:label>
+    <ca:locatedIn rdf:resource="http://www.semanticweb.org/california-ontology#BayArea"/>
+    <ca:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">873965</ca:hasPopulation>
+    <ca:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">121.5</ca:hasArea>
+    <ca:establishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1776</ca:establishedYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#Eureka">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#SmallCity"/>
+    <rdfs:label>Eureka</rdfs:label>
+    <ca:locatedIn rdf:resource="http://www.semanticweb.org/california-ontology#NorthCoast"/>
+    <ca:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26710</ca:hasPopulation>
+    <ca:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">37.4</ca:hasArea>
+    <ca:establishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1850</ca:establishedYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#hasCity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/california-ontology#Region"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/california-ontology#City"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/california-ontology#locatedIn"/>
+    <rdfs:label>has city</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#hasArea">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/california-ontology#GeographicalEntity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:label>has area (km²)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#Oakland">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#MediumCity"/>
+    <rdfs:label>Oakland</rdfs:label>
+    <ca:locatedIn rdf:resource="http://www.semanticweb.org/california-ontology#BayArea"/>
+    <ca:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">433031</ca:hasPopulation>
+    <ca:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">202.0</ca:hasArea>
+    <ca:establishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1852</ca:establishedYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#PalmSprings">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#SmallCity"/>
+    <rdfs:label>Palm Springs</rdfs:label>
+    <ca:locatedIn rdf:resource="http://www.semanticweb.org/california-ontology#Desert"/>
+    <ca:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44575</ca:hasPopulation>
+    <ca:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">245.0</ca:hasArea>
+    <ca:establishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1938</ca:establishedYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#SouthernRegion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/california-ontology#Region"/>
+    <rdfs:label>Southern Region</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#LosAngeles">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#MajorCity"/>
+    <rdfs:label>Los Angeles</rdfs:label>
+    <ca:locatedIn rdf:resource="http://www.semanticweb.org/california-ontology#SouthernCalifornia"/>
+    <ca:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3898747</ca:hasPopulation>
+    <ca:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1302.0</ca:hasArea>
+    <ca:establishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1781</ca:establishedYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#ShastaCascades">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#NorthernRegion"/>
+    <rdfs:label>Shasta Cascades</rdfs:label>
+    <ca:borders rdf:resource="http://www.semanticweb.org/california-ontology#SacramentoValley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#GoldCountry">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#CentralRegion"/>
+    <rdfs:label>Gold Country</rdfs:label>
+    <ca:borders rdf:resource="http://www.semanticweb.org/california-ontology#SierraNevada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#Redding">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#SmallCity"/>
+    <rdfs:label>Redding</rdfs:label>
+    <ca:locatedIn rdf:resource="http://www.semanticweb.org/california-ontology#ShastaCascades"/>
+    <ca:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93611</ca:hasPopulation>
+    <ca:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">158.4</ca:hasArea>
+    <ca:establishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1887</ca:establishedYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#BayArea">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#CentralRegion"/>
+    <rdfs:label>Bay Area</rdfs:label>
+    <ca:borders rdf:resource="http://www.semanticweb.org/california-ontology#CentralCoast"/>
+    <ca:borders rdf:resource="http://www.semanticweb.org/california-ontology#SanJoaquinValley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#Sacramento">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#MediumCity"/>
+    <rdfs:label>Sacramento</rdfs:label>
+    <ca:locatedIn rdf:resource="http://www.semanticweb.org/california-ontology#SacramentoValley"/>
+    <ca:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">524943</ca:hasPopulation>
+    <ca:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">253.0</ca:hasArea>
+    <ca:establishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1850</ca:establishedYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#Fresno">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#MediumCity"/>
+    <rdfs:label>Fresno</rdfs:label>
+    <ca:locatedIn rdf:resource="http://www.semanticweb.org/california-ontology#SanJoaquinValley"/>
+    <ca:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">542107</ca:hasPopulation>
+    <ca:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">297.0</ca:hasArea>
+    <ca:establishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1872</ca:establishedYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#NorthCoast">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#NorthernRegion"/>
+    <rdfs:label>North Coast</rdfs:label>
+    <ca:borders rdf:resource="http://www.semanticweb.org/california-ontology#ShastaCascades"/>
+    <ca:borders rdf:resource="http://www.semanticweb.org/california-ontology#SacramentoValley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#NorthernRegion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/california-ontology#Region"/>
+    <rdfs:label>Northern Region</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#SanDiego">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#MajorCity"/>
+    <rdfs:label>San Diego</rdfs:label>
+    <ca:locatedIn rdf:resource="http://www.semanticweb.org/california-ontology#SouthernCalifornia"/>
+    <ca:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1386932</ca:hasPopulation>
+    <ca:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">964.5</ca:hasArea>
+    <ca:establishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1769</ca:establishedYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#SantaCruz">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#SmallCity"/>
+    <rdfs:label>Santa Cruz</rdfs:label>
+    <ca:locatedIn rdf:resource="http://www.semanticweb.org/california-ontology#CentralCoast"/>
+    <ca:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65263</ca:hasPopulation>
+    <ca:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.0</ca:hasArea>
+    <ca:establishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1866</ca:establishedYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#CentralCoast">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#CentralRegion"/>
+    <rdfs:label>Central Coast</rdfs:label>
+    <ca:borders rdf:resource="http://www.semanticweb.org/california-ontology#SouthernCalifornia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#borders">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/california-ontology#Region"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/california-ontology#Region"/>
+    <rdfs:label>borders</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#GeographicalEntity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Geographical Entity</rdfs:label>
+    <rdfs:comment>Any geographical entity in California</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#Region">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/california-ontology#GeographicalEntity"/>
+    <rdfs:label>Region</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#SacramentoValley">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#NorthernRegion"/>
+    <rdfs:label>Sacramento Valley</rdfs:label>
+    <ca:borders rdf:resource="http://www.semanticweb.org/california-ontology#GoldCountry"/>
+    <ca:borders rdf:resource="http://www.semanticweb.org/california-ontology#BayArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#SmallCity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/california-ontology#City"/>
+    <rdfs:label>Small City</rdfs:label>
+    <rdfs:comment>City with population under 100,000</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:label>California Ontology</rdfs:label>
+    <rdfs:comment>An ontology describing California's regions, cities, and their properties</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#Desert">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#SouthernRegion"/>
+    <rdfs:label>Desert</rdfs:label>
+    <ca:borders rdf:resource="http://www.semanticweb.org/california-ontology#SouthernCalifornia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#MajorCity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/california-ontology#City"/>
+    <rdfs:label>Major City</rdfs:label>
+    <rdfs:comment>City with population over 500,000</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#CentralRegion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/california-ontology#Region"/>
+    <rdfs:label>Central Region</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#SanJoaquinValley">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#CentralRegion"/>
+    <rdfs:label>San Joaquin Valley</rdfs:label>
+    <ca:borders rdf:resource="http://www.semanticweb.org/california-ontology#CentralCoast"/>
+    <ca:borders rdf:resource="http://www.semanticweb.org/california-ontology#Desert"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#establishedYear">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/california-ontology#City"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:label>established year</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#County">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/california-ontology#GeographicalEntity"/>
+    <rdfs:label>County</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#locatedIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/california-ontology#City"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/california-ontology#Region"/>
+    <rdfs:label>located in</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#Landmark">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/california-ontology#GeographicalEntity"/>
+    <rdfs:label>Landmark</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#hasPopulation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/california-ontology#GeographicalEntity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:label>has population</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#City">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/california-ontology#GeographicalEntity"/>
+    <rdfs:label>City</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/california-ontology#SierraNevada">
+    <rdf:type rdf:resource="http://www.semanticweb.org/california-ontology#CentralRegion"/>
+    <rdfs:label>Sierra Nevada</rdfs:label>
+    <ca:borders rdf:resource="http://www.semanticweb.org/california-ontology#SanJoaquinValley"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,90 @@
+# California Ontology SPARQL Queries
+# Namespace prefix for our ontology
+# PREFIX ca: <http://www.semanticweb.org/california-ontology#>
+
+# ========================================
+# Query 1: Complex query with multiple restrictions
+# Find all cities in Central regions with population > 100,000 and area < 500 km²
+# ========================================
+PREFIX ca: <http://www.semanticweb.org/california-ontology#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?city ?cityName ?population ?area ?region
+WHERE {
+  ?city rdf:type/rdfs:subClassOf* ca:City .
+  ?city rdfs:label ?cityName .
+  ?city ca:hasPopulation ?population .
+  ?city ca:hasArea ?area .
+  ?city ca:locatedIn ?region .
+  ?region rdf:type ca:CentralRegion .
+  FILTER(?population > 100000 && ?area < 500)
+}
+ORDER BY DESC(?population)
+
+# ========================================
+# Query 2: Restrict results to objects of a certain type
+# Find all instances that are exactly of type MajorCity
+# ========================================
+PREFIX ca: <http://www.semanticweb.org/california-ontology#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?city ?name ?population
+WHERE {
+  ?city rdf:type ca:MajorCity .
+  ?city rdfs:label ?name .
+  ?city ca:hasPopulation ?population .
+}
+ORDER BY DESC(?population)
+
+# ========================================
+# Query 3: Restrict results to objects whose type is a subclass
+# Find all cities (including subclasses like MajorCity, MediumCity, SmallCity)
+# ========================================
+PREFIX ca: <http://www.semanticweb.org/california-ontology#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?city ?cityName ?type
+WHERE {
+  ?city rdf:type ?type .
+  ?type rdfs:subClassOf* ca:City .
+  ?city rdfs:label ?cityName .
+}
+ORDER BY ?type ?cityName
+
+# ========================================
+# Query 4: SPARQL 1.1 feature - Property paths
+# Find all regions that can be reached from Bay Area through borders (transitively)
+# Uses + for one or more borders relationship
+# ========================================
+PREFIX ca: <http://www.semanticweb.org/california-ontology#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?region ?regionName
+WHERE {
+  ca:BayArea ca:borders+ ?region .
+  ?region rdfs:label ?regionName .
+}
+
+# ========================================
+# Query 5: Additional complex query
+# Find pairs of regions that border each other and list their cities
+# ========================================
+PREFIX ca: <http://www.semanticweb.org/california-ontology#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?region1Name ?region2Name ?cityName
+WHERE {
+  ?region1 ca:borders ?region2 .
+  ?region1 rdfs:label ?region1Name .
+  ?region2 rdfs:label ?region2Name .
+  ?city ca:locatedIn ?region1 .
+  ?city rdfs:label ?cityName .
+  FILTER(STR(?region1) < STR(?region2))  # Avoid duplicate pairs
+}
+ORDER BY ?region1Name ?region2Name ?cityName
+LIMIT 20

@@ -1,0 +1,215 @@
+@prefix ca: <http://www.semanticweb.org/california-ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ca: a owl:Ontology ;
+    rdfs:label "California Ontology" ;
+    rdfs:comment "An ontology describing California's regions, cities, and their properties" .
+
+ca:Bakersfield a ca:MediumCity ;
+    rdfs:label "Bakersfield" ;
+    ca:establishedYear 1869 ;
+    ca:hasArea "384.2"^^xsd:float ;
+    ca:hasPopulation 383579 ;
+    ca:locatedIn ca:SanJoaquinValley .
+
+ca:County a owl:Class ;
+    rdfs:label "County" ;
+    rdfs:subClassOf ca:GeographicalEntity .
+
+ca:Eureka a ca:SmallCity ;
+    rdfs:label "Eureka" ;
+    ca:establishedYear 1850 ;
+    ca:hasArea "37.4"^^xsd:float ;
+    ca:hasPopulation 26710 ;
+    ca:locatedIn ca:NorthCoast .
+
+ca:Fresno a ca:MediumCity ;
+    rdfs:label "Fresno" ;
+    ca:establishedYear 1872 ;
+    ca:hasArea "297.0"^^xsd:float ;
+    ca:hasPopulation 542107 ;
+    ca:locatedIn ca:SanJoaquinValley .
+
+ca:Landmark a owl:Class ;
+    rdfs:label "Landmark" ;
+    rdfs:subClassOf ca:GeographicalEntity .
+
+ca:LosAngeles a ca:MajorCity ;
+    rdfs:label "Los Angeles" ;
+    ca:establishedYear 1781 ;
+    ca:hasArea "1302.0"^^xsd:float ;
+    ca:hasPopulation 3898747 ;
+    ca:locatedIn ca:SouthernCalifornia .
+
+ca:Oakland a ca:MediumCity ;
+    rdfs:label "Oakland" ;
+    ca:establishedYear 1852 ;
+    ca:hasArea "202.0"^^xsd:float ;
+    ca:hasPopulation 433031 ;
+    ca:locatedIn ca:BayArea .
+
+ca:PalmSprings a ca:SmallCity ;
+    rdfs:label "Palm Springs" ;
+    ca:establishedYear 1938 ;
+    ca:hasArea "245.0"^^xsd:float ;
+    ca:hasPopulation 44575 ;
+    ca:locatedIn ca:Desert .
+
+ca:Redding a ca:SmallCity ;
+    rdfs:label "Redding" ;
+    ca:establishedYear 1887 ;
+    ca:hasArea "158.4"^^xsd:float ;
+    ca:hasPopulation 93611 ;
+    ca:locatedIn ca:ShastaCascades .
+
+ca:Sacramento a ca:MediumCity ;
+    rdfs:label "Sacramento" ;
+    ca:establishedYear 1850 ;
+    ca:hasArea "253.0"^^xsd:float ;
+    ca:hasPopulation 524943 ;
+    ca:locatedIn ca:SacramentoValley .
+
+ca:SanDiego a ca:MajorCity ;
+    rdfs:label "San Diego" ;
+    ca:establishedYear 1769 ;
+    ca:hasArea "964.5"^^xsd:float ;
+    ca:hasPopulation 1386932 ;
+    ca:locatedIn ca:SouthernCalifornia .
+
+ca:SanFrancisco a ca:MajorCity ;
+    rdfs:label "San Francisco" ;
+    ca:establishedYear 1776 ;
+    ca:hasArea "121.5"^^xsd:float ;
+    ca:hasPopulation 873965 ;
+    ca:locatedIn ca:BayArea .
+
+ca:SanJose a ca:MajorCity ;
+    rdfs:label "San Jose" ;
+    ca:establishedYear 1777 ;
+    ca:hasArea "469.7"^^xsd:float ;
+    ca:hasPopulation 1013240 ;
+    ca:locatedIn ca:BayArea .
+
+ca:SantaCruz a ca:SmallCity ;
+    rdfs:label "Santa Cruz" ;
+    ca:establishedYear 1866 ;
+    ca:hasArea "41.0"^^xsd:float ;
+    ca:hasPopulation 65263 ;
+    ca:locatedIn ca:CentralCoast .
+
+ca:borders a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:label "borders" ;
+    rdfs:domain ca:Region ;
+    rdfs:range ca:Region .
+
+ca:establishedYear a owl:DatatypeProperty ;
+    rdfs:label "established year" ;
+    rdfs:domain ca:City ;
+    rdfs:range xsd:integer .
+
+ca:hasArea a owl:DatatypeProperty ;
+    rdfs:label "has area (km²)" ;
+    rdfs:domain ca:GeographicalEntity ;
+    rdfs:range xsd:float .
+
+ca:hasCity a owl:ObjectProperty ;
+    rdfs:label "has city" ;
+    rdfs:domain ca:Region ;
+    rdfs:range ca:City ;
+    owl:inverseOf ca:locatedIn .
+
+ca:hasPopulation a owl:DatatypeProperty ;
+    rdfs:label "has population" ;
+    rdfs:domain ca:GeographicalEntity ;
+    rdfs:range xsd:integer .
+
+ca:GoldCountry a ca:CentralRegion ;
+    rdfs:label "Gold Country" ;
+    ca:borders ca:SierraNevada .
+
+ca:NorthCoast a ca:NorthernRegion ;
+    rdfs:label "North Coast" ;
+    ca:borders ca:SacramentoValley,
+        ca:ShastaCascades .
+
+ca:SierraNevada a ca:CentralRegion ;
+    rdfs:label "Sierra Nevada" ;
+    ca:borders ca:SanJoaquinValley .
+
+ca:locatedIn a owl:ObjectProperty ;
+    rdfs:label "located in" ;
+    rdfs:domain ca:City ;
+    rdfs:range ca:Region .
+
+ca:Desert a ca:SouthernRegion ;
+    rdfs:label "Desert" ;
+    ca:borders ca:SouthernCalifornia .
+
+ca:ShastaCascades a ca:NorthernRegion ;
+    rdfs:label "Shasta Cascades" ;
+    ca:borders ca:SacramentoValley .
+
+ca:SouthernRegion a owl:Class ;
+    rdfs:label "Southern Region" ;
+    rdfs:subClassOf ca:Region .
+
+ca:CentralCoast a ca:CentralRegion ;
+    rdfs:label "Central Coast" ;
+    ca:borders ca:SouthernCalifornia .
+
+ca:NorthernRegion a owl:Class ;
+    rdfs:label "Northern Region" ;
+    rdfs:subClassOf ca:Region .
+
+ca:SacramentoValley a ca:NorthernRegion ;
+    rdfs:label "Sacramento Valley" ;
+    ca:borders ca:BayArea,
+        ca:GoldCountry .
+
+ca:BayArea a ca:CentralRegion ;
+    rdfs:label "Bay Area" ;
+    ca:borders ca:CentralCoast,
+        ca:SanJoaquinValley .
+
+ca:MajorCity a owl:Class ;
+    rdfs:label "Major City" ;
+    rdfs:comment "City with population over 500,000" ;
+    rdfs:subClassOf ca:City .
+
+ca:MediumCity a owl:Class ;
+    rdfs:label "Medium City" ;
+    rdfs:comment "City with population between 100,000 and 500,000" ;
+    rdfs:subClassOf ca:City .
+
+ca:SanJoaquinValley a ca:CentralRegion ;
+    rdfs:label "San Joaquin Valley" ;
+    ca:borders ca:CentralCoast,
+        ca:Desert .
+
+ca:SmallCity a owl:Class ;
+    rdfs:label "Small City" ;
+    rdfs:comment "City with population under 100,000" ;
+    rdfs:subClassOf ca:City .
+
+ca:SouthernCalifornia a ca:SouthernRegion ;
+    rdfs:label "Southern California" .
+
+ca:CentralRegion a owl:Class ;
+    rdfs:label "Central Region" ;
+    rdfs:subClassOf ca:Region .
+
+ca:City a owl:Class ;
+    rdfs:label "City" ;
+    rdfs:subClassOf ca:GeographicalEntity .
+
+ca:GeographicalEntity a owl:Class ;
+    rdfs:label "Geographical Entity" ;
+    rdfs:comment "Any geographical entity in California" .
+
+ca:Region a owl:Class ;
+    rdfs:label "Region" ;
+    rdfs:subClassOf ca:GeographicalEntity .
+
