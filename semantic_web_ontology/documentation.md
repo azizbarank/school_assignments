@@ -241,7 +241,7 @@ WHERE {
 ## Technical Details
 
 - **Format**: RDF/XML (OWL)
-- **File**: `project.owl`
+- **File**: `california.owl`
 - **Total Classes**: 11 (including subclasses)
 - **Total Properties**: 6 (3 object properties, 3 data properties)
 - **Total Instances**: 22 (10 regions + 12 cities)
