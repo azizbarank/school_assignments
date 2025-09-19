@@ -1,10 +1,5 @@
 # California Ontology Documentation - Assignment 3
 
-## Overview
-This ontology models California's geographical regions, cities, and their relationships. It is based on the 10 official tourism regions of California and includes cities with their population and area data.
-
-**For Assignment 3, the ontology has been extended with OWL constructs including intersection classes, union classes, property restrictions, inverse properties, and symmetric properties to demonstrate reasoning capabilities.**
-
 ## Ontology Extensions for Assignment 3
 
 ### New OWL Constructs Added
